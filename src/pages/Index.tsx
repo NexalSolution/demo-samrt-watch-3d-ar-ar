@@ -15,7 +15,7 @@ import { BackToTop } from "@/components/BackToTop";
 import { useScrollPosition } from "@/hooks/useScrollPosition";
 import { log } from "console";
 
-const { VITE_APP_BASE_URL } = import.meta.env;
+const { VITE_APP_BASE_URL } = import.meta.env.VITE_APP_BASE_URL || "";
 
 export const products = [
   {
